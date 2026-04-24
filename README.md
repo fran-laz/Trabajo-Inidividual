@@ -33,3 +33,12 @@
 
   * ## Evitar commits sin sentido
 	  Grabar el progreso no justifica crear mensajes o cambios aleatorios.
+   ## GitHub y SSH
+
+   GitHub es una plataforma para almacenar y colaborar en proyectos usando Git. Se recomienda usar **SSH** para conectarse, ya que evita ingresar credenciales cada vez. :contentReference[oaicite:0]{index=0}
+
+   ## Comandos básicos
+
+	- `git clone`: copiar un repositorio  
+	- `git push`: subir cambios  
+	- `git pull`: bajar cambios  
