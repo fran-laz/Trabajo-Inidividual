@@ -42,3 +42,22 @@
 	- `git clone`: copiar un repositorio  
 	- `git push`: subir cambios  
 	- `git pull`: bajar cambios  
+* ## Ramas y Gitflow
+
+	Las ramas en Git permiten trabajar en diferentes partes del proyecto sin afectar el código principal. Gitflow es un flujo de trabajo que organiza el desarrollo usando ramas específicas para cada tipo de tarea,
+	facilitando el trabajo en equipo y el control de versiones.
+
+	Las ramas principales son:
+		- **main**: contiene el código en producción  
+		- **develop**: contiene el código en desarrollo  
+		- **feature**: nuevas funcionalidades  
+		- **release**: preparación de nuevas versiones  
+		- **hotfix**: corrección de errores urgentes  
+
+* ## Comandos básicos de ramas
+
+		- `git branch`: listar o crear ramas  
+		- `git branch -D <rama>`: eliminar una rama  
+		- `git checkout <rama>`: cambiar de rama  
+		- `git checkout -b <rama>`: crear y cambiar de rama  
+		- `git switch <rama>`: cambiar de rama (comando moderno)  
