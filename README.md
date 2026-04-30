@@ -61,3 +61,17 @@
 		- `git checkout <rama>`: cambiar de rama  
 		- `git checkout -b <rama>`: crear y cambiar de rama  
 		- `git switch <rama>`: cambiar de rama (comando moderno)  
+* ## Comandos clave
+
+	- **git merge**: fusiona ramas (`--no-ff` mantiene historial)  
+	- **git fetch**: revisa cambios remotos sin aplicarlos  
+	- **git pull**: trae y aplica cambios → `git pull origin <rama>`  
+	- **git push**: sube cambios → `git push origin <rama>` (`-u` la primera vez)  
+
+
+* ## Flujo básico
+
+	1. Actualizar `develop`: `fetch` + `pull`  
+	2. Trabajar en tu rama y subir cambios (`push`)  
+	3. Volver a `develop`, actualizar y hacer `merge --no-ff`  
+	4. Resolver conflictos, commit y eliminar la rama  
