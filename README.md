@@ -74,4 +74,17 @@
 	1. Actualizar `develop`: `fetch` + `pull`  
 	2. Trabajar en tu rama y subir cambios (`push`)  
 	3. Volver a `develop`, actualizar y hacer `merge --no-ff`  
-	4. Resolver conflictos, commit y eliminar la rama  
+	4. Resolver conflictos, commit y eliminar la rama
+
+* ## Pull Requests (PR)
+
+	Los **Pull Requests (PR)** son la forma profesional de integrar cambios en GitHub. Permiten proponer la fusión de una rama al código principal, facilitando la revisión, discusión y aprobación antes del merge. 
+	Se usan principalmente para mejorar la seguridad y el trabajo en equipo, evitando cambios directos sin revisión.
+
+* ## Flujo con PR
+
+	1. Actualizar `develop`: `fetch` + `pull`  
+	2. Crear/cambiar a tu rama y trabajar  
+	3. Subir cambios: `git push origin <rama>`  
+	4. Actualizar tu rama con `develop` si es necesario  
+	5. Crear el Pull Request en GitHub para revisión y merge   
