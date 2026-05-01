@@ -88,3 +88,21 @@
 	3. Subir cambios: `git push origin <rama>`  
 	4. Actualizar tu rama con `develop` si es necesario  
 	5. Crear el Pull Request en GitHub para revisión y merge   
+
+
+* ## git diff
+
+	- `git diff`: muestra cambios no confirmados respecto al último commit  
+	- `git diff --staged`: muestra cambios en staging (listos para commit)  
+	- `git diff <rama1> <rama2>`: compara diferencias entre ramas  
+
+	> Útil para revisar cambios antes de hacer commit o merge  
+
+
+* ## git stash
+
+	- `git stash -m "mensaje"`: guarda cambios temporalmente  
+	- `git stash list`: lista los cambios guardados  
+	- `git stash pop`: recupera y elimina el último stash  
+
+	> Útil para cambiar de rama sin perder cambios actuales  
